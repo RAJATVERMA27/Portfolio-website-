@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(253, 253, 253);
+    color: antiquewhite;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    height: 20vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+    color: rgb(90, 67, 67);
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: 0;
+    background: #ffffff;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.9rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+
+    font-size: 2.5rem;
+
+}
+
+.leftsection {
+    color: rgb(0, 0, 0);
+}
+
+.leftsection .btn {
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    border: 2px solid rgb(11, 11, 11);
+    border-radius: 10px;
+}
+
+.leftsection .buttons {
+    padding: 50px 0;
+}
+
+.rightsection img {
+    height: 70vh;
+
+}
+
+.purple {
+    color: rgb(114, 114, 114);
+}
+
+.text-gray {
+    color: rgb(53, 53, 53);
+}
+
+#element {
+    color: blue;
+}
+
+
+footer {
+    background-color: rgb(109, 109, 109);
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.foooter>div {
+    width: 200px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 12px 0;
+}
